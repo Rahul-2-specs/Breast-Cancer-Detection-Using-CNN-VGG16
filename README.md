@@ -41,47 +41,12 @@ Dataset includes metadata CSV files describing each case along with correspondin
 
 ---
 
+
 ## Project Workflow
 
-```
-CBIS-DDSM Dataset
-        │
-        ▼
-Load Metadata
-        │
-        ▼
-Image Path Processing
-        │
-        ▼
-Dataset Cleaning
-        │
-        ▼
-Image Preprocessing
-        │
-        ▼
-Normalization
-        │
-        ▼
-Train-Test Split
-        │
-        ▼
-Data Augmentation
-        │
-        ├───────────────┐
-        ▼               ▼
- Custom CNN        VGG16 Transfer Learning
-        │               │
-        ▼               ▼
- Model Training   Model Training
-        │               │
-        ▼               ▼
- Performance Comparison
-        │
-        ▼
-Final Prediction
-```
-
----
+<p align="center">
+  <img src="images/DEEPmammo_Breast_Cancer_Detection_Workflow.png" width="900">
+</p>
 
 # Methodology
 
@@ -162,7 +127,11 @@ To improve model generalization, ImageDataGenerator is used with:
 - Shear Transformation
 
 ---
+## Model Architecture Comparison
 
+<p align="center">
+  <img src="images/Breast_Cancer_Detection_Architecture_Comparison.png" width="900">
+</p>
 # Model 1 – Custom CNN
 
 The first model is a Sequential CNN built from scratch.

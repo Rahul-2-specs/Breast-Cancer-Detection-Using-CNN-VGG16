@@ -132,6 +132,7 @@ To improve model generalization, ImageDataGenerator is used with:
 <p align="center">
   <img src="images/Breast_Cancer_Detection_Architecture_Comparison.png" width="900">
 </p>
+---
 # Model 1 – Custom CNN
 
 The first model is a Sequential CNN built from scratch.

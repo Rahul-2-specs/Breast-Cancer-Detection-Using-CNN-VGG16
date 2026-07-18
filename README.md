@@ -127,6 +127,7 @@ To improve model generalization, ImageDataGenerator is used with:
 - Shear Transformation
 
 ---
+
 ## Model Architecture Comparison
 
 <p align="center">

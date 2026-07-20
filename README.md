@@ -379,16 +379,15 @@ Breast-Cancer-Detection-Using-CNN-VGG16/
 ├── deepmammo-cnn-vgg16.ipynb
 │
 ├── images/
-│   ├── DEEPmammo_Breast_Cancer_Detection_Workflow.png
-│   ├── Breast_Cancer_Detection_Architecture_Comparison.png
-│   ├── cnn_training.png
-│   ├── cnn_confusion_matrix.png
-│   ├── cnn_prediction.png
-│   ├── vgg16_training.png
-│   ├── vgg16_confusion_matrix.png
-│   └── vgg16_prediction.png
-│
-└── results/
+   ├── DEEPmammo_Breast_Cancer_Detection_Workflow.png
+   ├── Breast_Cancer_Detection_Architecture_Comparison.png
+   ├── cnn_training.png
+   ├── cnn_confusion_matrix.png
+   ├── cnn_prediction.png
+   ├── vgg16_training.png
+   ├── vgg16_confusion_matrix.png
+   └── vgg16_prediction.png
+
 ```
 
 ---
